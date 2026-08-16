@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b5exqd6jufe7i"]
+
+[ext_resource type="PackedScene" uid="uid://deyluaec7hfc1" path="res://assets/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf" id="1_ommew"]
+[ext_resource type="AnimationLibrary" path="res://scenes/characters/ual1_animation_library.tres" id="2_1bdvj"]
+[ext_resource type="Script" uid="uid://cblrcy1la5s46" path="res://addons/mikeys_game_bones/actors/actor_animator.gd" id="3_6038e"]
+
+[node name="BaseCharacter3D" type="Node3D" unique_id=1570027303]
+
+[node name="Superhero_Male_FullBody" parent="." unique_id=1846426087 instance=ExtResource("1_ommew")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Superhero_Male_FullBody" unique_id=260802543]
+libraries/ = ExtResource("2_1bdvj")
+autoplay = &"Idle"
+script = ExtResource("3_6038e")
+attack_animation = &"Sword_Attack"
