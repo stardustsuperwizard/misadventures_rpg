@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[node name="InteractionPrompt" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_top = -32.0
+offset_bottom = 0.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 23.0
+text = "Interact [E]"
+horizontal_alignment = 1

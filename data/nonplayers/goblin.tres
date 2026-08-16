@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CharacterSheet" format=3 uid="uid://p2v41e1wlpxy"]
+
+[ext_resource type="Script" path="res://rules/d20/character_sheet.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+character_name = "Goblin"
+strength = 10
+dexterity = 14
+constitution = 9
+intelligence = 8
+wisdom = 8
+charisma = 8
+vitality = 2
+level = 1
+armor_bonus = 1
+weapon_damage_dice = Vector2i(1, 4)

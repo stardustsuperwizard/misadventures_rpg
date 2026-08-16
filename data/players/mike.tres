@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CharacterSheet" format=3 uid="uid://btfpchqdd213b"]
+
+[ext_resource type="Script" path="res://rules/d20/character_sheet.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+character_name = "Mike"
+strength = 14
+dexterity = 12
+constitution = 13
+intelligence = 11
+wisdom = 11
+charisma = 13
+vitality = 4
+level = 1
+armor_bonus = 2
+weapon_damage_dice = Vector2i(1, 6)
