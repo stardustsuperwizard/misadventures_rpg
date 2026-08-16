@@ -19,7 +19,7 @@ func _on_peer_connected(id: int) -> void:
 		return
 
 	var spawn_point := SpawnPoint.new()
-	spawn_point.actor_scene = load("res://scenes/tavern/actors/player.tscn")
+	spawn_point.actor_scene = load("res://scenes/village/actors/player.tscn")
 	spawn_point.character_sheet = load("res://data/players/mike.tres")
 
 	var actor := world_manager.spawn(spawn_point, id)
